@@ -3,4 +3,4 @@
 
 # Except for the directories:
 !.gitignore
-!spikedev/rentacar
+!spikedev/rentacar/
