@@ -1,0 +1,10 @@
+name: Reservations
+form: $/spikedev/rentacar/models/reservation/fields.yaml
+modelClass: Spikedev\Rentacar\Models\Reservation
+defaultRedirect: spikedev/rentacar/reservations
+create:
+    redirect: 'spikedev/rentacar/reservations/update/:id'
+    redirectClose: spikedev/rentacar/reservations
+update:
+    redirect: spikedev/rentacar/reservations
+    redirectClose: spikedev/rentacar/reservations

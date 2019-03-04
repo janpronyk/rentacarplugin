@@ -1,0 +1,4 @@
+title: Dates
+modelClass: Spikedev\Rentacar\Models\Date
+toolbar:
+    buttons: reorder_toolbar

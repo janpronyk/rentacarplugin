@@ -1,0 +1,10 @@
+name: Vehicles
+form: $/spikedev/rentacar/models/vehicle/fields.yaml
+modelClass: Spikedev\Rentacar\Models\Vehicle
+defaultRedirect: spikedev/rentacar/vehicles
+create:
+    redirect: 'spikedev/rentacar/vehicles/update/:id'
+    redirectClose: spikedev/rentacar/vehicles
+update:
+    redirect: spikedev/rentacar/vehicles
+    redirectClose: spikedev/rentacar/vehicles

@@ -1,0 +1,20 @@
+columns:
+    pickup_date:
+        label: 'Pickup Date'
+        type: datetime
+        searchable: true
+        sortable: true
+    dropoff_date:
+        label: 'Drop Off Date'
+        type: datetime
+        sortable: true
+    user:
+        label: User
+        type: text
+        select: name
+        relation: user
+    vehicle:
+        label: Vehicle
+        type: text
+        select: name
+        relation: vehicle

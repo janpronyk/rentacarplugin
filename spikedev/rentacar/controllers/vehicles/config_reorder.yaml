@@ -1,0 +1,4 @@
+title: Vehicles
+modelClass: Spikedev\Rentacar\Models\Vehicle
+toolbar:
+    buttons: reorder_toolbar

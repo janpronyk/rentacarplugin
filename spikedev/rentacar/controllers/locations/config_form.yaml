@@ -1,0 +1,10 @@
+name: Locations
+form: $/spikedev/rentacar/models/location/fields.yaml
+modelClass: Spikedev\Rentacar\Models\Location
+defaultRedirect: spikedev/rentacar/locations
+create:
+    redirect: 'spikedev/rentacar/locations/update/:id'
+    redirectClose: spikedev/rentacar/locations
+update:
+    redirect: spikedev/rentacar/locations
+    redirectClose: spikedev/rentacar/locations

@@ -1,0 +1,24 @@
+plugin:
+    name: 'spikedev.rentacar::lang.plugin.name'
+    description: 'spikedev.rentacar::lang.plugin.description'
+    author: spikedevelopment
+    icon: oc-icon-car
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Rent A Car'
+        url: spikedev/rentacar/vehicles
+        icon: icon-truck
+        sideMenu:
+            side-menu-item:
+                label: Locations
+                url: spikedev/rentacar/locations
+                icon: icon-map-marker
+            side-menu-item2:
+                label: Dates
+                url: spikedev/rentacar/dates
+                icon: icon-calendar
+            side-menu-item3:
+                label: Reservations
+                url: spikedev/rentacar/reservations
+                icon: icon-ticket

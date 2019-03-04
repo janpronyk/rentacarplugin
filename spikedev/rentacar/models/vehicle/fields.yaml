@@ -1,0 +1,51 @@
+fields:
+    name:
+        label: Name
+        span: auto
+        type: text
+    slug:
+        label: Slug
+        span: auto
+        preset:
+            field: name
+            type: slug
+        type: text
+    image:
+        label: 'Car Image'
+        mode: image
+        imageWidth: '250'
+        fileTypes: 'jpeg, png, jpg'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    description:
+        label: Description
+        size: huge
+        span: right
+        type: richeditor
+    locations:
+        label: Locations
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation
+    price:
+        label: 'Price by day'
+        span: auto
+        type: text
+    available:
+        label: 'Currently available'
+        span: auto
+        type: switch
+tabs:
+    fields:
+        dates:
+            label: Reserved
+            nameFrom: pickup_date
+            descriptionFrom: description
+            span: auto
+            type: relation
+            tab: 'Tab 1'

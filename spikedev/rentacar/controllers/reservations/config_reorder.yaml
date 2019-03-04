@@ -1,0 +1,4 @@
+title: Reservations
+modelClass: Spikedev\Rentacar\Models\Reservation
+toolbar:
+    buttons: reorder_toolbar

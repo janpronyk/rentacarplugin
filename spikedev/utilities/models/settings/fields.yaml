@@ -1,0 +1,31 @@
+fields:
+
+      contact_fields:
+            type: Backend\FormWidgets\Repeater
+            label: Contact Info
+      
+            form:
+                  fields:
+                        field_type:     
+                              label: Field Type
+                              type: balloon-selector
+                              options:
+                                    header: Header
+                                    email: Email
+                                    phone: Phone
+                                    text: Text
+                              span: left
+
+                        show_label:
+                              label: Display Label
+                              type: switch
+                              comment: Flick this switch to display label
+                              span: right
+
+                        label:
+                              label: Label
+
+                        content:
+                              label: Content
+
+                        

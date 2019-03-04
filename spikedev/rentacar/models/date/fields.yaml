@@ -1,0 +1,11 @@
+fields:
+    pickup_date:
+        label: 'Pickup Date'
+        mode: datetime
+        span: left
+        type: datepicker
+    drop_date:
+        label: 'Drop off date'
+        mode: datetime
+        span: right
+        type: datepicker

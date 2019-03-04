@@ -1,0 +1,10 @@
+name: Dates
+form: $/spikedev/rentacar/models/date/fields.yaml
+modelClass: Spikedev\Rentacar\Models\Date
+defaultRedirect: spikedev/rentacar/dates
+create:
+    redirect: 'spikedev/rentacar/dates/update/:id'
+    redirectClose: spikedev/rentacar/dates
+update:
+    redirect: spikedev/rentacar/dates
+    redirectClose: spikedev/rentacar/dates

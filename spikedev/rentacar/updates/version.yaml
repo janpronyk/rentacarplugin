@@ -1,0 +1,26 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table spikedev_rentacar_vehicles'
+    - builder_table_create_spikedev_rentacar_vehicles.php
+1.0.3:
+    - 'Created table spikedev_rentacar_locations'
+    - builder_table_create_spikedev_rentacar_locations.php
+1.0.4:
+    - 'Created table spikedev_rentacar_location_vehicle'
+    - builder_table_create_spikedev_rentacar_location_vehicle.php
+1.0.5:
+    - 'Updated table spikedev_rentacar_vehicles'
+    - builder_table_update_spikedev_rentacar_vehicles.php
+1.0.6:
+    - 'Updated table spikedev_rentacar_vehicles'
+    - builder_table_update_spikedev_rentacar_vehicles_2.php
+1.0.7:
+    - 'Created table spikedev_rentacar_dates'
+    - builder_table_create_spikedev_rentacar_dates.php
+1.0.8:
+    - 'Created table spikedev_rentacar_date_vehicle'
+    - builder_table_create_spikedev_rentacar_date_vehicle.php
+1.0.9:
+    - 'Created table spikedev_rentacar_reservations'
+    - builder_table_create_spikedev_rentacar_reservations.php
